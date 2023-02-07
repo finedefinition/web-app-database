@@ -1,47 +1,44 @@
 .table_dark {
-    font-family: "SF Pro Display",Sans-Serif;
+    font-family: "Arial",Sans-Serif,sans-serif;
     width: 70%;
-    color: #282626;
+    color: black;
     font-size: 40px;
     text-align: center;
-    border-collapse: collapse;
-    background: #f1f183;
+    /*border-collapse: collapse;*/
+    background: white;
     margin: auto;
-    padding: 12px 0px 12px 0px;
     border-radius: 10px;
-    margin-bottom: 10px;
-    border: none;
+    /*border: 3px solid black;*/
 
 }
 .table_dark th {
-    color: #fff;
-    border-bottom: 1px solid #FFFFFF;
+    color: white;
+    border-bottom: 1px solid black;
     padding: 12px 20px;
     font-size: 18px;
-    background: #282626;
+    background: black;
     border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-color: white;
+    border-color: black;
 }
 .table_dark td {
-    border-bottom: 0.5px solid #FFFFFF;
+    border-bottom:  1px solid black;
     padding: 12px 17px;
     font-size: 14px;
-    border-color: white;
+    border-radius: 10px;
+    border-color: black;
 
 }
 .table_dark tr:last-child td {
-    border-bottom: none;
-    border-color: white;
+    border-bottom:  1px solid black;
+    border-color: black;
 
 }
 .table_dark td:last-child {
-    border-right: none;
-    border-color: white;
+    border-bottom:  1px solid black;
+    border-color: black;
 
 }
 .table_dark tr:hover td {
-    text-decoration: underline;
-    border-color: white;
+    /*text-decoration: underline;*/
+    border-color: black;
 }
