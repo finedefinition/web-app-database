@@ -11,7 +11,7 @@
     <jsp:include page="header.jsp"/>
 </header>
 <form method="post" id="redirect"></form>
-<h1 class="table_dark">Welcome to taxi service</h1>
+<h1 class="table_dark">Welcome to database service</h1>
 <table class="table_dark">
     <tr>
         <th>Main menu</th>
