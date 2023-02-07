@@ -1,19 +1,16 @@
 .login-page {
-    width: 360px;
-    padding: 8% 0 0;
+    width: 660px;
+    padding: 3% 0 0;
     margin: auto;
 }
 .form {
-    font-family: "SF Pro Display",Sans-Serif;
+    font-family: "Arial",Sans-Serif;
     position: relative;
-    z-index: 1;
+    z-index: auto;
     background: gold;
     max-width: 360px;
     margin: 0 auto 100px;
-    padding: 45px;
     text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    /*border-radius: 10px;*/
 }
 .form h1 {
     position: relative;
@@ -96,9 +93,9 @@
     color: #EF3B3A;
 }
 body {
-    background: #fff;
+    background: gold;
 
-    font-family: "SF Pro Display",Sans-Serif;
+    font-family: "Arial", Sans-Serif, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
